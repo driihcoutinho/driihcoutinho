@@ -35,5 +35,5 @@ Sou uma desenvolvedora Salesforce com especialização em **Ampscript** e **Java
 ---
 
 📫 **Como me encontrar:**
-- GitHub: [AdriCoutinho](https://github.com/adricoutinho)
+- Instagram: [AdriCoutinho](https://www.instagram.com/driihcoutinho/)
 - LinkedIn: [Adri Coutinho](https://www.linkedin.com/in/adricoutinho/)
