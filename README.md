@@ -16,7 +16,7 @@ Sou uma desenvolvedora Salesforce com especialização em **Ampscript** e **Java
 
 ### Projetos Destacados
 
-- **Chatbot com ChatterBot e TensorFlow**: Um chatbot usando a biblioteca ChatterBot de código aberto e uma abordagem de aprendizado profundo com o TensorFlow. [Repositório](#)
+- **Chatbot com ChatterBot e TensorFlow**: Um chatbot usando a biblioteca ChatterBot de código aberto e uma abordagem de aprendizado profundo com o TensorFlow. [Repositório](https://github.com/driihcoutinho/testes-com-ia)
 - **Dashboard de Análise de Dados**: Um dashboard que exibe gráficos e métricas com base em dados de uma API. [Repositório](#)
 
 ### Conquistas
