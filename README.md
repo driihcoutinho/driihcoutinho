@@ -22,6 +22,7 @@ Sou uma desenvolvedora Salesforce com especialização em **Ampscript** e **Java
 ### Conquistas
 
 - **Salesforce Marketing Cloud Developer**
+- **Salesforce IA Associate**
 - **Análise de Banco de Dados e Cloud**
 - **User Experience Designer**
 - **Python 3 e Apache Spark**
