@@ -2,7 +2,7 @@
 
 ## Sobre Mim
 
-Sou uma desenvolvedora Salesforce com especialização em **Ampscript** e **JavaScript**, tenho 3 anos de experiência em **Python** para análise de dados, **TypeScript** e **Angular** para criação de aplicativos. Sou formada em Comunicação Social e Novos Mercados, mas sou da geração Millennials que construía templates do Tumblr do zero 😄. Por isso, escolhi a área de **Martech** para unir as duas áreas que amo e criar soluções inovadoras. Moro em São Paulo, Brasil.
+Sou uma desenvolvedora Salesforce com especialização em **Ampscript** e **JavaScript**, tenho 4 anos de experiência em fullstack com foco em **Python** para análise de dados, **TypeScript** e **Angular** para criação de aplicativos. Sou formada em Comunicação Social e Novos Mercados, mas sou da geração Millennials que construía templates do Tumblr do zero 😄. Por isso, escolhi a área de **Martech** para unir as duas áreas que amo e criar soluções inovadoras. Moro em São Paulo, Brasil.
 
 ### Tecnologias e Ferramentas
 
