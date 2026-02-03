@@ -10,7 +10,7 @@ Sou uma desenvolvedora Salesforce com especialização em **Ampscript** e **Java
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![AmpScript](https://img.shields.io/badge/AmpScript-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Apex](https://img.shields.io/badge/Apex-00A1E0)
+![Apex](https://img.shields.io/badge/Apex-00A1E0?logo=salesforce&logoColor=white)
 ![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
