@@ -2,6 +2,12 @@
 
 # Script de Testes da POC API Gateway
 # Este script executa uma série de testes para validar a API
+# 
+# IMPORTANTE: Este script é apenas para testes locais de desenvolvimento
+# NÃO execute contra ambientes de produção
+#
+# Uso: ./test.sh [BASE_URL]
+# Exemplo: ./test.sh http://localhost:3000
 
 echo "🧪 ============================================"
 echo "🧪 POC API Gateway - Suite de Testes"
@@ -10,7 +16,24 @@ echo ""
 
 # Configurações
 BASE_URL="${1:-http://localhost:3000}"
-TOKEN="${BEARER_TOKEN:-test_token_poc_2026}"
+TOKEN="${BEARER_TOKEN}"
+
+# Verifica se o token foi configurado
+if [ -z "$TOKEN" ]; then
+    echo "⚠️  Variável BEARER_TOKEN não configurada."
+    echo "   Para testes locais, exporte a variável:"
+    echo "   export BEARER_TOKEN=test_token_poc_2026"
+    echo ""
+    read -p "Deseja usar o token padrão de teste? (s/n): " -n 1 -r
+    echo ""
+    if [[ $REPLY =~ ^[Ss]$ ]]; then
+        TOKEN="test_token_poc_2026"
+        echo "✅ Usando token padrão de teste"
+    else
+        echo "❌ Abortando testes"
+        exit 1
+    fi
+fi
 
 echo "🔧 Configurações:"
 echo "   Base URL: $BASE_URL"

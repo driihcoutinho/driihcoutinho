@@ -9,8 +9,17 @@ export function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];
   const token = authHeader && authHeader.split(' ')[1]; // Bearer TOKEN
 
-  // Token esperado (em produção, usar variável de ambiente)
-  const expectedToken = process.env.BEARER_TOKEN || 'token_padrao_desenvolvimento';
+  // Token esperado (OBRIGATÓRIO configurar via variável de ambiente)
+  const expectedToken = process.env.BEARER_TOKEN;
+
+  // Verifica se o token foi configurado
+  if (!expectedToken) {
+    console.error('❌ [SECURITY] BEARER_TOKEN não configurado! Configure a variável de ambiente.');
+    return res.status(500).json({
+      erro: 'Configuração inválida',
+      mensagem: 'O servidor não está configurado corretamente. Entre em contato com o administrador.'
+    });
+  }
 
   if (!token) {
     return res.status(401).json({

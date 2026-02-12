@@ -19,9 +19,19 @@ app.use(express.json());
 // Middleware global para logging de requisições
 app.use(logRequest);
 
-// Adiciona headers CORS (se necessário)
+// Adiciona headers CORS
+// Em produção, configure ALLOWED_ORIGINS para restringir acesso
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
+  const allowedOrigins = process.env.ALLOWED_ORIGINS 
+    ? process.env.ALLOWED_ORIGINS.split(',') 
+    : ['*'];
+  
+  const origin = req.headers.origin;
+  
+  if (allowedOrigins.includes('*') || allowedOrigins.includes(origin)) {
+    res.header('Access-Control-Allow-Origin', origin || '*');
+  }
+  
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
   

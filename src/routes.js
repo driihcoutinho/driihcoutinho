@@ -38,11 +38,19 @@ router.get('/pedido/:ordemVenda', authenticateToken, async (req, res) => {
   try {
     const { ordemVenda } = req.params;
 
-    // Validação básica do parâmetro
+    // Validação do parâmetro
     if (!ordemVenda || ordemVenda.trim() === '') {
       return res.status(400).json({
         erro: 'Parâmetro inválido',
         mensagem: 'O número da ordem de venda é obrigatório'
+      });
+    }
+
+    // Validação de formato (apenas números e letras, máximo 20 caracteres)
+    if (!/^[a-zA-Z0-9]{1,20}$/.test(ordemVenda)) {
+      return res.status(400).json({
+        erro: 'Formato inválido',
+        mensagem: 'O número da ordem de venda deve conter apenas letras e números (máximo 20 caracteres)'
       });
     }
 
