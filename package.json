@@ -1,0 +1,28 @@
+{
+  "name": "poc-api-gateway-salesforce-totvs",
+  "version": "1.0.0",
+  "description": "POC API Gateway - Middleware para integração Salesforce ↔ Totvs",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "salesforce",
+    "totvs",
+    "api-gateway",
+    "middleware",
+    "poc"
+  ],
+  "author": "Adri Coutinho",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^4.18.2"
+  }
+}
