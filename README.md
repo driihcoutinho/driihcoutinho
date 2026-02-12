@@ -25,7 +25,7 @@ Sou uma desenvolvedora Salesforce com especialização em **Ampscript** e **Java
 
 ### Projetos Destacados
 
-- **POC API Gateway - Salesforce ↔ Totvs**: Middleware de integração entre Salesforce e Totvs usando Node.js e Express. Demonstra arquitetura de desacoplamento com autenticação Bearer Token, logs estruturados e deploy no Render. [Ver POC](./SETUP.md)
+- **POC API Gateway - Salesforce ↔ Totvs**: Middleware de integração entre Salesforce e Totvs usando Node.js e Express. Demonstra arquitetura de desacoplamento com autenticação Bearer Token, logs estruturados e deploy no Render. [Ver Repositório](https://github.com/driihcoutinho/POC-API-GATEWAY)
 - **Chatbot com ChatterBot e TensorFlow**: Um chatbot usando a biblioteca ChatterBot de código aberto e uma abordagem de aprendizado profundo com o TensorFlow. [Repositório](https://github.com/driihcoutinho/testes-com-ia)
 - **Dashboard de Análise de Dados**: Um dashboard que exibe gráficos e métricas com base em dados de uma API. [Repositório](#)
 

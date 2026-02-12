@@ -94,8 +94,8 @@ Esta POC (Prova de Conceito) foi implementada com sucesso e demonstra a viabilid
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/driihcoutinho/driihcoutinho.git
-cd driihcoutinho
+git clone https://github.com/driihcoutinho/POC-API-GATEWAY.git
+cd POC-API-GATEWAY
 
 # 2. Instale dependências
 npm install

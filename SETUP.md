@@ -60,8 +60,8 @@ poc-api-gateway-salesforce-totvs/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/driihcoutinho/driihcoutinho.git
-cd driihcoutinho
+git clone https://github.com/driihcoutinho/POC-API-GATEWAY.git
+cd POC-API-GATEWAY
 
 # Instale as dependências
 npm install
@@ -172,11 +172,11 @@ Authorization: Bearer seu_token_secreto_aqui
 
 4. **Deploy:**
    - O Render fará deploy automaticamente
-   - URL gerada: `https://poc-api-salesforce-totvs.onrender.com`
+   - URL gerada: `https://poc-api-gateway.onrender.com`
 
 5. **Testar:**
    ```bash
-   curl https://poc-api-salesforce-totvs.onrender.com/health
+   curl https://poc-api-gateway.onrender.com/health
    ```
 
 ## 🔧 Configuração no Salesforce

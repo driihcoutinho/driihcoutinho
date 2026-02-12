@@ -26,7 +26,7 @@ Se você já tem uma Named Credential configurada (ex: `TotvsEndpoint`):
 1. Clique em **Edit** ao lado da Named Credential existente
 2. Atualize o campo **URL** para:
    ```
-   https://poc-api-tru.onrender.com
+   https://poc-api-gateway.onrender.com
    ```
 3. Mantenha todas as outras configurações como estão
 4. Clique em **Save**
@@ -41,7 +41,7 @@ Se você precisa criar uma nova Named Credential para a POC:
    **Named Credential Details:**
    - **Label:** `Totvs POC Endpoint`
    - **Name:** `TotvsEndpoint` (ou o nome que seu código Apex já usa)
-   - **URL:** `https://poc-api-tru.onrender.com`
+   - **URL:** `https://poc-api-gateway.onrender.com`
 
    **Identity Type:**
    - Selecione: **Named Principal**
@@ -85,7 +85,7 @@ Para permitir que o Salesforce faça callouts para a URL do Render:
 2. Clique em **New Remote Site**
 3. Preencha:
    - **Remote Site Name:** `TotvsAPI_POC`
-   - **Remote Site URL:** `https://poc-api-tru.onrender.com`
+   - **Remote Site URL:** `https://poc-api-gateway.onrender.com`
    - ✅ **Active**
    - Descrição: `POC API Gateway para integração Totvs`
 4. Clique em **Save**
@@ -189,7 +189,7 @@ Para produção, é recomendado armazenar o Bearer Token de forma segura:
 ### Teste 1: Health Check (sem autenticação)
 
 ```bash
-curl https://poc-api-tru.onrender.com/health
+curl https://poc-api-gateway.onrender.com/health
 ```
 
 Resposta esperada:
@@ -206,7 +206,7 @@ Resposta esperada:
 
 ```bash
 curl -H "Authorization: Bearer seu_token_secreto_aqui" \
-     https://poc-api-tru.onrender.com/pedido/2981977
+     https://poc-api-gateway.onrender.com/pedido/2981977
 ```
 
 Resposta esperada:

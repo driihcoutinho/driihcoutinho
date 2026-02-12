@@ -167,8 +167,8 @@ HttpResponse res = new Http().send(req);
 ```
 
 ### 2. **Named Credential resolve URL**
-- `callout:TotvsEndpoint` → `https://poc-api-salesforce-totvs.onrender.com`
-- URL final: `https://poc-api-salesforce-totvs.onrender.com/pedido/2981977`
+- `callout:TotvsEndpoint` → `https://poc-api-gateway.onrender.com`
+- URL final: `https://poc-api-gateway.onrender.com/pedido/2981977`
 
 ### 3. **Requisição chega no Express**
 ```
@@ -256,7 +256,7 @@ System.debug('Status: ' + pedido.get('Status')); // "Faturado"
    ```
    Para:
    ```
-   https://poc-api-salesforce-totvs.onrender.com (POC)
+   https://poc-api-gateway.onrender.com (POC)
    ```
 4. Salvar
 
@@ -274,7 +274,7 @@ System.debug('Status: ' + pedido.get('Status')); // "Faturado"
 2. New Remote Site
 3. Configurar:
    - Name: `TotvsAPI_POC`
-   - URL: `https://poc-api-salesforce-totvs.onrender.com`
+   - URL: `https://poc-api-gateway.onrender.com`
    - Active: ✅
 4. Salvar
 
@@ -371,7 +371,7 @@ Siga o guia completo em [RENDER_DEPLOY.md](./RENDER_DEPLOY.md).
 2. Criar Web Service conectado ao GitHub
 3. Configurar variáveis de ambiente (BEARER_TOKEN)
 4. Deploy automático
-5. Obter URL: `https://poc-api-salesforce-totvs.onrender.com`
+5. Obter URL: `https://poc-api-gateway.onrender.com`
 6. Testar endpoints
 
 ---

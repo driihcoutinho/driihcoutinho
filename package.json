@@ -1,7 +1,11 @@
 {
-  "name": "poc-api-gateway-salesforce-totvs",
+  "name": "poc-api-gateway",
   "version": "1.0.0",
   "description": "POC API Gateway - Middleware para integração Salesforce ↔ Totvs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/driihcoutinho/POC-API-GATEWAY.git"
+  },
   "type": "module",
   "main": "src/server.js",
   "scripts": {

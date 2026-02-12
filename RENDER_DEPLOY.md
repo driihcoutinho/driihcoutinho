@@ -22,17 +22,17 @@ Este guia detalha como fazer o deploy da POC API Gateway no Render (Free Tier).
 2. Selecione **"Web Service"**
 3. Conecte seu repositório:
    - Se for a primeira vez, clique em **"Connect GitHub"**
-   - Autorize o Render a acessar o repositório `driihcoutinho/driihcoutinho`
-   - Ou configure para "All repositories" se preferir
+   - Autorize o Render a acessar o repositório `driihcoutinho/POC-API-GATEWAY`
+   - Selecione o repositório POC-API-GATEWAY na lista
 
 ### 3. Configurar o Web Service
 
 Preencha os campos da seguinte forma:
 
 **Basic Configuration:**
-- **Name:** `poc-api-salesforce-totvs` (ou outro nome de sua preferência)
+- **Name:** `poc-api-gateway` (ou outro nome de sua preferência)
 - **Region:** Escolha a mais próxima (ex: `Ohio (US East)`)
-- **Branch:** `copilot/create-middleware-poc` (ou `main` se já foi merged)
+- **Branch:** `main`
 - **Root Directory:** deixe vazio (o código está na raiz)
 - **Environment:** `Node`
 - **Build Command:** `npm install`
@@ -90,7 +90,7 @@ node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 Após o deploy ser concluído:
 
 1. A URL será exibida no topo da página
-2. Formato: `https://poc-api-salesforce-totvs.onrender.com`
+2. Formato: `https://poc-api-gateway.onrender.com`
 3. **Copie essa URL** - você precisará dela para configurar no Salesforce
 
 ### 7. Testar o Deploy
@@ -99,7 +99,7 @@ Use o terminal ou Postman para testar:
 
 ```bash
 # Test 1: Health Check (sem autenticação)
-curl https://poc-api-salesforce-totvs.onrender.com/health
+curl https://poc-api-gateway.onrender.com/health
 
 # Resposta esperada:
 # {
@@ -111,7 +111,7 @@ curl https://poc-api-salesforce-totvs.onrender.com/health
 
 # Test 2: Consultar Pedido (com autenticação)
 curl -H "Authorization: Bearer SEU_TOKEN_AQUI" \
-     https://poc-api-salesforce-totvs.onrender.com/pedido/2981977
+     https://poc-api-gateway.onrender.com/pedido/2981977
 
 # Resposta esperada:
 # {
@@ -205,7 +205,7 @@ Se cold starts forem um problema, você pode:
 2. **Usar cron job externo** para manter ativo:
    ```bash
    # Cron job que chama /health a cada 10 minutos
-   */10 * * * * curl https://poc-api-salesforce-totvs.onrender.com/health
+   */10 * * * * curl https://poc-api-gateway.onrender.com/health
    ```
 
 ## 📝 Checklist Pós-Deploy
