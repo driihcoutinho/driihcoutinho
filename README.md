@@ -1,8 +1,8 @@
 # Olá! Sou a Adri Coutinho 👋
 
-Desenvolvedora Salesforce com especialização em **Marketing Cloud** — Ampscript, SSJS e integrações via REST/SOAP — e 4 anos de experiência fullstack com **Python**, **TypeScript** e **React**.
+Desenvolvedora Salesforce com especialização em **Marketing Cloud**, Ampscript, SSJS e integrações via REST/SOAP, e 4 anos de experiência fullstack com **Python**, **TypeScript** e **React**.
 
-Sou formada em Comunicação Social e Novos Mercados, mas sou da geração que construía template de Tumblr do zero. Escolhi Martech justamente para juntar as duas coisas: entender a campanha e conseguir construir o que ela precisa. Moro em São Paulo.
+Sou formada em Comunicação Social e Novos Mercados, mas sou da geração que construía template de Tumblr do zero. Escolhi Martech justamente para juntar as duas coisas: entender a campanha e conseguir construir o que ela precisa.
 
 ### Tecnologias e Ferramentas
 
