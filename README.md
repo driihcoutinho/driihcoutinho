@@ -1,4 +1,4 @@
-# Olá! Sou a Adri Coutinho 👋
+# Olá! Sou a Adri Coutinho Rabelo 👋
 
 Desenvolvedora Salesforce com especialização em **Marketing Cloud**, Ampscript, SSJS e integrações via REST/SOAP, e 4 anos de experiência fullstack com **Python**, **TypeScript** e **React**.
 
