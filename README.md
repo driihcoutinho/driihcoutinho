@@ -33,7 +33,7 @@ Captura de lead com honeypot e upsert idempotente, relatório de campanhas rende
 
 **[AeroQuiz](https://github.com/driihcoutinho/aeroquiz)** — React + TypeScript · Express · PWA
 
-Comecei para minha esposa estudar no processo seletivo da LATAM; outros comissários passaram a usar, e virou case no LinkedIn. As 1.270 questões oficiais do CMS ANAC não foram digitadas: um pipeline em TypeScript lê os DOCX oficiais, separa enunciado e alternativas, cruza com os gabaritos e descarta o que não bate. Schema Zod compartilhado entre cliente e servidor, progresso salvo localmente e funcionamento offline.
+Comecei para uma pessoa muito especial estudar no processo seletivo da LATAM; outros comissários passaram a usar, e virou case no LinkedIn. As 1.270 questões oficiais do CMS ANAC não foram digitadas: um pipeline em TypeScript lê os DOCX oficiais, separa enunciado e alternativas, cruza com os gabaritos e descarta o que não bate. Schema Zod compartilhado entre cliente e servidor, progresso salvo localmente e funcionamento offline.
 
 ### Certificações
 
