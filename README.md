@@ -25,7 +25,7 @@ Sou formada em Comunicação Social com pós-graduação em Novos Mercados e Dig
 
 **[Campaign Engagement Console](https://github.com/driihcoutinho/salesforce-campaign-engagement-console)** — Salesforce · LWC + Apex
 
-Componente Lightning que pontua membros de campanha por engajamento e registra interações em lote. Segurança delegada à plataforma com `WITH USER_MODE`, operação atômica via savepoint e bulkificação real — 1 SOQL e 3 DML independentemente do volume. **17 testes Apex, 90,8% de cobertura**, validados contra org real. Usa só objetos padrão, então faz deploy em qualquer org.
+Componente Lightning que pontua membros de campanha por engajamento e registra interações em lote. Segurança delegada à plataforma com `WITH USER_MODE`, operação atômica via savepoint e bulkificação real, 1 SOQL e 3 DML independentemente do volume. **17 testes Apex, 90,8% de cobertura**, validados contra org real. Usa só objetos padrão, então faz deploy em qualquer org.
 
 **[SFMC CloudPages Toolkit](https://github.com/driihcoutinho/sfmc-cloudpages-toolkit)** — Marketing Cloud · Ampscript + SSJS
 
