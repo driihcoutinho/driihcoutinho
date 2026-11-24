@@ -37,11 +37,11 @@ Comecei para uma pessoa muito especial estudar no processo seletivo da LATAM; ou
 
 ### Certificações
 
-- Salesforce Marketing Cloud Developer
-- Salesforce AI Associate
-- Salesforce User Experience Designer
-- Adobe Campaign Classic Developer
-- Microsoft Power Platform Fundamentals (PL-900)
+- Salesforce Certified  — Marketing Cloud Engagement Foundations
+- Salesforce Certified  — AI Associate (aposentada pela Salesforce em 2026)
+- Salesforce Certified  — Platform User Experience Designer
+- Adobe Certified Expert — Adobe Campaign Classic Developer
+- Microsoft Certified — Power Platform Fundamentals (PL-900)
 - Análise de Banco de Dados e Cloud
 - Python 3 e Apache Spark
 
