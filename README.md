@@ -47,7 +47,7 @@ Comecei para uma pessoa muito especial estudar no processo seletivo da LATAM; ou
 
 ### Aprendendo no momento
 
-Apex avançado · Inglês e Espanhol
+Apex avançado · Inglês intermediário (B1, em progressão para B2)  ·  Espanhol iniciante (A2)
 
 ---
 
